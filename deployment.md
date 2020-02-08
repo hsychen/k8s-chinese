@@ -222,7 +222,7 @@ $ kubectl edit deployments nginx-deployment
 
 跳出（系統預設）文字編輯器，找到 replicas，由 4 改為 3，存檔後關閉。
 
-![2](C:\Users\Doraemon\Documents\GitHub\k8s-chinese\2020-02-08_22-36-18.png)
+![](https://github.com/hsychen/k8s-chinese/blob/master/2020-02-08_22-36-18.png)
 
 ```bash
 $ kubectl edit deployments nginx-deployment
