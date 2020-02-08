@@ -451,7 +451,7 @@ Sat Feb  8 02:39:52 UTC 2020
 
 指定到 busybox 容器內進行互動模式（證明 nginx 與 busybox 兩個容器共享同一個 network namespace）：
 
-```
+```bash
 $ kubectl exec nginx-busybox -c busybox -it sh
 / # ip a
 1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue qlen 1000
